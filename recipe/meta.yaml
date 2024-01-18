@@ -13,9 +13,9 @@ build:
   ignore_prefix_files: True
   script:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
-    - rm Cargo.toml  # [osx]
     - {{ PYTHON }} -m pip install . -vvv
   number: 1
+  skip: True  # [osx]
 
 requirements:
   build:
