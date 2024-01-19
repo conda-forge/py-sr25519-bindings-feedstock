@@ -1,0 +1,22 @@
+--- Cargo.toml  2022-10-31 04:42:05.000000000 -0500
++++ Cargo.toml  2024-01-18 18:05:51.133426722 -0600
+@@ -26,18 +26,4 @@
+ default = ["extension-module"]
+
+ [dependencies.pyo3]
+-version = "0.11.0"
+-
+-[package.metadata.maturin]
+-maintainer = "Stichting Polkascan (Polkascan Foundation)"
+-maintainer-email = "legal@polkascan.org"
+-classifier = [
+-    "License :: OSI Approved :: Apache Software License",
+-    "Intended Audience :: Developers",
+-    "Programming Language :: Python :: 3",
+-    "Programming Language :: Python :: 3.6",
+-    "Programming Language :: Python :: 3.7",
+-    "Programming Language :: Python :: 3.8",
+-    "Programming Language :: Python :: 3.9",
+-    "Programming Language :: Python :: 3.10"
+-]
++version = "0.18.0"
