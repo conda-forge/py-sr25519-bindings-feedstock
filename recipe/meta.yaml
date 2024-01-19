@@ -9,13 +9,15 @@ package:
 source:
   url: https://github.com/polkascan/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
+  patches:
+    - fix-Cargo.toml.patch
 
 build:
   ignore_prefix_files: True
   script:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
     - {{ PYTHON }} -m pip install . -vvv
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -24,9 +26,13 @@ requirements:
     - cargo-bundle-licenses
   host:
     - maturin =0.14.0
+    - pip
     - python
     - setuptools-rust
   run:
+    # Recipe failed when compiling pyo3 with complaint about linked lib built for SDK 10.12
+    # https://conda-forge.org/docs/maintainer/knowledge_base.html#requiring-newer-macos-sdks
+    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx and x86_64]
     - python
 
 test:
