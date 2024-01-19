@@ -18,7 +18,7 @@ build:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
     - {{ PYTHON }} -m pip install . -vvv
   number: 1
-  skip: True  # [not osx]
+  skip: True  # [not osx or not py==310]
 
 
 requirements:
