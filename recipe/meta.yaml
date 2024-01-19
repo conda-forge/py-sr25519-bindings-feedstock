@@ -1,6 +1,5 @@
 {% set name = "py-sr25519-bindings" %}
 {% set version = "0.2.0" %}
-{% set sha256 = "71ec66e5635e30d39a9c3093dc2ea9a685f551dcf53f02eb6d2ebf0121400a98" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://github.com/polkascan/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 71ec66e5635e30d39a9c3093dc2ea9a685f551dcf53f02eb6d2ebf0121400a98
   patches:
     - fix-Cargo.toml.patch
 
