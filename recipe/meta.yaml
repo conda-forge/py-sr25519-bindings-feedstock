@@ -29,9 +29,6 @@ requirements:
     - python
     - setuptools-rust
   run:
-    # Recipe failed when compiling pyo3 with complaint about linked lib built for SDK 10.12
-    # https://conda-forge.org/docs/maintainer/knowledge_base.html#requiring-newer-macos-sdks
-    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.12") }}  # [osx and x86_64]
     - python
 
 test:
