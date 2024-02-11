@@ -24,7 +24,7 @@ requirements:
     - {{ compiler('rust') }}
     - cargo-bundle-licenses
   host:
-    - maturin =0.14.0
+    - maturin =0.14.17
     - pip
     - python
     - setuptools-rust
@@ -41,6 +41,8 @@ test:
   commands:
     - pip check
     - pytest -v tests.py
+  downstreams:
+    - bip-utils
 
 about:
   home: https://github.com/polkascan/py-sr25519-bindings

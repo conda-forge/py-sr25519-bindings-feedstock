@@ -1,0 +1,29 @@
+diff --git a/pyproject.toml b/pyproject.toml
+--- a/pyproject.toml	(date 1670928743000)
++++ b/pyproject.toml
+@@ -2,3 +2,25 @@
+ requires = ["maturin>=0.12,<0.13"]
+ build-backend = "maturin"
+
++[project]
++name = "py-sr25519-bindings"
++description = "Python bindings for sr25519 library"
++authors=[{name = "Stichting Polkascan (Polkascan Foundation)"}, {email = "legal@polkascan.org"}]
++version = "0.1.11"
++repository = "https://github.com/polkascan/py-sr25519-bindings"
++homepage = "https://github.com/polkascan/py-sr25519-bindings"
++license = {file = "LICENSE"}
++readme = "README.md"
++edition = "2018"
++maintainers = [{name = "Stichting Polkascan (Polkascan Foundation)", email = "legal@polkascan.org"}]
++classifier = [
++    "License :: OSI Approved :: Apache Software License",
++    "Intended Audience :: Developers",
++    "Programming Language :: Python :: 3",
++    "Programming Language :: Python :: 3.6",
++    "Programming Language :: Python :: 3.7",
++    "Programming Language :: Python :: 3.8",
++    "Programming Language :: Python :: 3.9",
++    "Programming Language :: Python :: 3.10",
++]
++
