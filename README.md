@@ -20,7 +20,7 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
             <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main">
           </a>
         </summary>
@@ -29,105 +29,105 @@ Current build status
           <tbody><tr>
               <td>linux_64_python3.10</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.11</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.12.1</td>
+              <td>linux_64_python3.12</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.1" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.8</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.9</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.10</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.11</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.12.1</td>
+              <td>osx_64_python3.12</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.1" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.8</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.9</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.10</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.11</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.12.1</td>
+              <td>win_64_python3.12</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.1" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.8</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.9</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20657&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/py-sr25519-bindings-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9" alt="variant">
                 </a>
               </td>
