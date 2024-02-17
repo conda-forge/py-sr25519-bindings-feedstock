@@ -9,7 +9,7 @@ diff --git a/pyproject.toml b/pyproject.toml
 +name = "py-sr25519-bindings"
 +description = "Python bindings for sr25519 library"
 +authors=[{name = "Stichting Polkascan (Polkascan Foundation)"}, {email = "legal@polkascan.org"}]
-+version = "0.1.11"
++version = "0.2.0"
 +repository = "https://github.com/polkascan/py-sr25519-bindings"
 +homepage = "https://github.com/polkascan/py-sr25519-bindings"
 +license = {file = "LICENSE"}
