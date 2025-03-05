@@ -24,6 +24,8 @@ requirements:
     - {{ stdlib("c") }}
     - {{ compiler('rust') }}
     - cargo-bundle-licenses
+    - cross-python_{{ target_platform }}  # [build_platform != target_platform]
+    - python  # [build_platform != target_platform]
   host:
     - maturin =0.14.17
     - pip
@@ -42,8 +44,8 @@ test:
   commands:
     - pip check
     - pytest -v tests.py
-  downstreams:
-    - bip-utils
+  # downstreams:
+  #   - bip-utils
 
 about:
   home: https://github.com/polkascan/py-sr25519-bindings
