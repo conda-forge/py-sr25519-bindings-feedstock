@@ -1,5 +1,5 @@
 {% set name = "py-sr25519-bindings" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/polkascan/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8f625d961ebed095c978a79b1a9c8456618082c5a35f9984a23810a8a0538def
+  sha256: ff5fbad0ff9d99428805733eaa71d6f97ea0e0fc37c7f3dae012fd2c0b6aba02
 
 build:
   ignore_prefix_files: true
