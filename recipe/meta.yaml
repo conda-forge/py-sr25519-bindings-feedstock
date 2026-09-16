@@ -1,5 +1,5 @@
 {% set name = "py-sr25519-bindings" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/polkascan/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ff5fbad0ff9d99428805733eaa71d6f97ea0e0fc37c7f3dae012fd2c0b6aba02
+  sha256: 526d3be81c08065ea3fa9ae40b5e2ac4411552659134ee298724621fe9469eb4
 
 build:
   ignore_prefix_files: true
@@ -16,7 +16,7 @@ build:
   script:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
     - {{ PYTHON }} -m pip install . -vvv
-  number: 3
+  number: 0
 
 requirements:
   build:
